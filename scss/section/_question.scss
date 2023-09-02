@@ -1,0 +1,36 @@
+.questions {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  background:rgba(36, 80, 138, 1);
+  border-radius: 20px;
+  padding: 30px;
+  @media screen and (min-width: 767px){
+    padding: 60px;
+  }
+
+  &__icon {
+    list-style: none;
+    vertical-align: middle;
+  }
+
+  &__title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 28px;
+    @media screen and (min-width: 767px) {
+      font-size: 48px;
+    }
+  }
+
+  &__desc {
+    padding: 20px 0 20px;
+    margin: 0;
+    font-weight: 500;
+    font-size: 16px;
+    max-width: 900px;
+    @media screen and (min-width: 767px) {
+      padding: 40px 0 40px;
+    }
+  }
+}

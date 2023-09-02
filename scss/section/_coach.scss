@@ -1,0 +1,42 @@
+.coach {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 30px;
+  background:rgba(36, 80, 138, 1);
+  border-radius: 20px;
+  padding: 30px;
+  @media screen and (min-width: 767px){
+    padding: 60px;
+  }
+
+  &__photo {
+    width: 200px;
+    height: 200px;
+    &:hover, &:focus{
+      filter: drop-shadow(0 0 11px rgba(255, 255, 255, 0.89));
+      scale: 130%;
+      transition: 3s;
+    }
+  }
+  &__name{
+    margin:80px 40px 0;
+  }
+  &__desc{
+    text-align: justify;
+    font-size: 18px;
+  }
+}
+
+.coaches{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: flex-start;
+  padding-bottom: 30px;
+  &:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+}

@@ -1,0 +1,32 @@
+.contacts {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding-top: 60px;
+
+  &__maps {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: space-around;
+    @media screen and (min-width: 767px) {
+      flex-direction: row;
+    }
+  }
+
+  &__list {
+    list-style: disc;
+  }
+
+  &__icon {
+    font-size: 18px;
+    padding-left: 20px;
+    text-decoration: none;
+    color: #fff;
+  }
+
+  @media screen and (min-width: 767px) {
+    font-size: 24px;
+  }
+}

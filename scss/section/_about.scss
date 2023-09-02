@@ -1,0 +1,16 @@
+.about{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 30px;
+  background:rgba(36, 80, 138, 1);
+  border-radius: 20px;
+  padding: 30px;
+  @media screen and (min-width: 767px){
+    padding: 60px;
+  }
+  &__desc{
+    text-align: justify;
+  }
+}
