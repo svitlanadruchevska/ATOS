@@ -699,7 +699,7 @@ main {
 
 .promo__title {
   position: relative;
-  padding-top: 10% 0 5%;
+  padding: 10% 0 5%;
   margin: 0;
   font-size: 40px;
 }
