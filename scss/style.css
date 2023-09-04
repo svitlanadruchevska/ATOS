@@ -677,7 +677,7 @@ main {
 }
 .promo__title {
   position: relative;
-  padding-top: 200px;
+  padding: 10% 0 5%;
   margin: 0;
   font-size: 40px;
 }
